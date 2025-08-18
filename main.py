@@ -1,4 +1,3 @@
-# File: main.py - Main entry point
 from acquisition_manager import AcquisitionManager
 from buffer_manager import BufferManager
 from upload_manager import UploadManager

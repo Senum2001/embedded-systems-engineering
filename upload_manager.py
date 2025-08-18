@@ -1,5 +1,3 @@
-# File: upload_manager.py
-import json
 from datetime import datetime
 
 class UploadManager:
