@@ -1,15 +1,13 @@
-# File: acquisition_manager.py
 import random
 import time
 from datetime import datetime
 
 class AcquisitionManager:
     def __init__(self):
-        self.poll_interval = 2  # Poll every 2 seconds
+        self.poll_interval = 2  
         
     def poll_inverter(self):
-        """Simulates polling the inverter SIM for voltage/current data"""
-        # Simulate reading from inverter registers  
+        """Simulates polling the inverter SIM for voltage/current data"""  
         voltage = round(220 + random.uniform(-10, 10), 2)  # 220V ± 10V
         current = round(5 + random.uniform(-1, 1), 2)      # 5A ± 1A
         

@@ -1,10 +1,9 @@
-# File: buffer_manager.py
 import threading
 
 class BufferManager:
     def __init__(self):
         self.data_buffer = []
-        self.lock = threading.Lock()  # Thread safety
+        self.lock = threading.Lock() 
         
     def add_data(self, data):
         """Add new data point to buffer"""
